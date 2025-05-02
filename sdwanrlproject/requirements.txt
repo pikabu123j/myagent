@@ -1,0 +1,8 @@
+torch==2.0.1+cu118
+networkx>=3.0
+matplotlib>=3.7
+pyyaml>=6.0
+transformers>=4.28
+imageio-ffmpeg>=0.4.7
+pillow>=10.0
+numpy>=1.24

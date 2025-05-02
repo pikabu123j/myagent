@@ -1,0 +1,29 @@
+nodes:
+  - id: "node1"
+    type: "router"
+  - id: "node2"
+    type: "router"
+  - id: "node3"
+    type: "switch"
+
+links:
+  - source: "node1"
+    target: "node2"
+    latency: 20
+    bandwidth: 100
+    loss: 0.01
+    jitter: 5
+    
+  - source: "node1"
+    target: "node3"
+    latency: 50
+    bandwidth: 50
+    loss: 0.05
+    jitter: 10
+    
+  - source: "node2"
+    target: "node3"
+    latency: 30
+    bandwidth: 80
+    loss: 0.02
+    jitter: 8
